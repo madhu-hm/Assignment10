@@ -7,7 +7,7 @@ class Employee{
 		this.id=id;
 	}
 	public String getEmployeeDetails() {
-		return "ID: "+id+", Name; "+name; 
+		return "ID: "+id+", Name: "+name; 
 	}
 	public String getEmployeeDetails(String additionalInfo) {
 	    return getEmployeeDetails() + ", Additional Info: " + additionalInfo;
